@@ -1,9 +1,11 @@
 **CAESER CIPHER**
+  
   One of the simplest and oldest encryption technique
   Encryption: shifts each character of the message or the text by fixed no of character (key)
   Decryption: shifts each character of the message or the text by the same fixed no of character but in the opposite direction (negative of the key)
 
 **POLYNOMIAL ROLLING HASH FUNCTION**
+
   converts the given input to fixed length hash string
   Base p=31
   Large modulus m = 2^61 - 1 (a prime number)
@@ -16,6 +18,7 @@
     Output is padded or trimmed to a fixed length (default = 12)
 
 **FLOW OF THE PROGRAM**
+
   Input: Plain text is given as input
   Hash Value generation: Plain text is passed to the hashing function which returns the respective hash value
   Appending: Plain text and Hash value are concatenated 
