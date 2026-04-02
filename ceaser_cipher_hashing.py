@@ -56,10 +56,10 @@ print("Encryption Done..")
 
 #DECRYPTION
 retrieved_text=encrypted_text[:n]
-print(retrieved_text)
+print("Text retrieved:",retrieved_text)
 decrypted_text=caeser(retrieved_text,-key)
 if(encrypted_text[n:]==hashing(retrieved_text)):
     print("Hashing value Matches..")
-    print(decrypted_text)
+    print("Text after decrypting the retrieved text:",decrypted_text)
 else:
     print("error")
